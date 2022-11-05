@@ -1,56 +1,123 @@
-body{
-    background-color: #E6E6E6;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-
+body {
+  background-color: #e6e6e6;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.pricing_table_box{
-    width: 80%;
-    height: 600px;
-    border: 2px dashed red;
-    margin: 60px auto;
-    clear: both;
+.pricing_table_box {
+  width: 80%;
+  height: 600px;
 
+  margin: 60px auto;
+  clear: both;
 }
-.pricing_box{
-    width: 27%;
-    height: 100%;
-    border:1px dashed black;
-    /* display: inline-block; */
-    float: left;
-    background-color: white;
-    border-top-left-radius: 150px;
-    border-bottom-right-radius: 150px;
-    box-shadow:0px 0px 10px 10px rgba(0,0,0,0.1) ;
-    text-align: center;
+.pricing_box {
+  width: 27%;
+  height: 100%;
+  float: left;
+  background-color: white;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
 }
 /* nth child selector */
-.pricing_table_box > div:nth-child(2){
-    margin: 0px 112px;
+.pricing_table_box > div:nth-child(2) {
+  margin: 0px 112px;
 }
-.pricing_table_box ul{
-    list-style: none;
-    padding: 0px;
-    width: 60%;
-    margin: auto;
-    
+.pricing_table_box ul {
+  list-style: none;
+  padding: 0px;
+  width: 60%;
+  margin: auto;
+  margin-top: 120px;
 }
-.pricing_table_box ul >li{
-    border-bottom: 1px solid #E3E3E3;
-    height: 40px;
-    line-height: 40px;
-    
+.pricing_table_box ul > li {
+  border-bottom: 1px solid #e3e3e3;
+  height: 40px;
+  line-height: 40px;
 }
-.green{
-    color: green;
+.green {
+  color: green;
 }
-.red{
-    color: red;
+.red {
+  color: red;
 }
-.btn{
-    background-color: red;
-    border: none;
-    padding: 10px 80px;
-    color:white;
+.btn {
+  background-color: #ff072f;
+  border: none;
+  padding: 10px 80px;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  left: -30px;
+}
+.triangle {
+  height: 0;
+  width: 0;
+  border-bottom: 50px solid #a2031b;
+  border-left: 50px solid transparent;
+  position: absolute;
+  bottom: 35px;
+  left: 0px;
+  z-index: -1;
+}
+.pricing_box h1 {
+  margin-top: 50px;
+}
+.pricing_badge {
+  background-color: #ff072f;
+  padding: 10px 60px;
+  color: white;
+  position: absolute;
+  top: 100px;
+  right: -30px;
+}
+.triangleup1 {
+  height: 0;
+  width: 0;
+  border-bottom: 50px solid #a2031b;
+  border-left: 50px solid transparent;
+  position: absolute;
+  bottom: -50px;
+  left: 110px;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+.triangleup2 {
+  height: 0;
+  width: 0;
+  border-bottom: 50px solid #014fa9;
+  border-left: 50px solid transparent;
+}
+.triangleup3 {
+  height: 0;
+  width: 0;
+  border-bottom: 50px solid #005a51;
+  border-left: 50px solid transparent;
+}
+.pricing_badge2 {
+  background-color: #004fab;
+}
+.pricing_badge3 {
+  background-color: #009b8b;
+}
+.btn2 {
+  background-color: #004fab;
+}
+.btn3 {
+  background-color: #009b8b;
+}
+.triangle2 {
+  height: 0;
+  width: 0;
+  border-bottom: 50px solid #004088;
+  border-left: 50px solid transparent;
+}
+.triangle3 {
+  height: 0;
+  width: 0;
+  border-bottom: 50px solid #00564e;
+  border-left: 50px solid transparent;
 }
